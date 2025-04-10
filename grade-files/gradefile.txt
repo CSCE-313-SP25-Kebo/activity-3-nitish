@@ -1,0 +1,59 @@
+rm -f main
+g++ -std=c++17 -g -pedantic -Wall -Wextra -Werror -fno-omit-frame-pointer -o main main.cpp
+chmod u+x tests.sh
+./tests.sh
+To remove colour from tests, set COLOUR to 1 in sh file
+
+
+Start testing
+
+Testing :: Compilation
+
+  [0;32mTest #1 Passed[0m
+
+Testing :: Correct ls -l when exiting normally - ./main -n 0
+
+  [0;32mTest #2 Passed[0m
+
+Testing :: Correct exit message when exiting normally - ./main -n 0
+
+  [0;32mTest #3 Passed[0m
+
+Testing :: Correct parent PID when exiting normally - ./main -n 0
+
+  [0;32mTest #4 Passed[0m
+
+Testing :: Correct child PID when exiting normally - ./main -n 0
+
+  [0;32mTest #5 Passed[0m
+
+Testing :: Correct wait or waitpid
+
+  [0;32mTest #6 Passed[0m
+
+Testing :: Correct exit message when exiting with kill - ./main -n 1
+
+  [0;32mTest #7 Passed[0m
+
+Testing :: Correct parent PID when exiting with kill - ./main -n 1
+
+  [0;32mTest #8 Passed[0m
+
+Testing :: Correct child PID when exiting with kill - ./main -n 1
+
+  [0;32mTest #9 Passed[0m
+
+Testing :: Correct sleep
+
+  [0;32mTest #10 Passed[0m
+
+Testing :: Correct WIFSIGNALED
+
+  [0;32mTest #11 Passed[0m
+
+Testing :: Correct WIFEXITED
+
+  [0;32mTest #12 Passed[0m
+
+SCORE: 50/50
+

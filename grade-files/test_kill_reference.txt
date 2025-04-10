@@ -1,0 +1,7 @@
+Hello from the child process!
+The parent process ID is $ID 1434851
+The child process is exiting
+
+Hello from the parent process!
+The child process ID is $ID 1434854
+The child process exited due to the kill signal

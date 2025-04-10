@@ -1,0 +1,45 @@
+GNU gdb (Ubuntu 13.1-2ubuntu2.1) 13.1
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./main...
+(gdb) (gdb) Starting program: /home/ivan/Downloads/code-server/rootfs/src/25S-CSCE313/Activity3/activity-3-nitish/main -n 0
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.ubuntu.com>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[Detaching after fork from child process 1434791]
+Hello from the child process!
+The parent process ID is 1434788
+The child process will execute the command: ls -l after 6 seconds
+total 72
+-rw-rw-r-- 1 ivan ivan  1060 Apr 10 09:44 expected_answer.md
+-rw-rw-r-- 1 ivan ivan   320 Apr 10 09:45 gradefile.txt
+-rwxrwxr-x 1 ivan ivan 34720 Apr 10 09:45 main
+-rw-rw-r-- 1 ivan ivan  2446 Apr 10 09:44 main.cpp
+-rw-rw-r-- 1 ivan ivan   365 Apr 10 09:45 makefile
+-rw-rw-r-- 1 ivan ivan  1269 Apr 10 09:44 README.md
+drwxrwxr-x 2 ivan ivan  4096 Apr 10 09:44 test-files
+-rw-rw-r-- 1 ivan ivan  1486 Apr 10 09:45 test_normal_log.txt
+-rwxrwxr-x 1 ivan ivan  4159 Apr 10 09:45 tests.sh
+
+Hello from the parent process!
+The child process ID is 1434791
+The child process exited normally
+[Inferior 1 (process 1434788) exited normally]
+(gdb) (gdb) 

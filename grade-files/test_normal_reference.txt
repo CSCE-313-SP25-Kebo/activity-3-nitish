@@ -1,0 +1,17 @@
+Hello from the child process!
+The parent process ID is $ID 1434788
+The child process will execute the command: ls -l after 6 seconds
+total 72
+-rw-rw-r-- 1 ivan ivan  1060 Apr 10 09:44 expected_answer.md
+-rw-rw-r-- 1 ivan ivan   320 Apr 10 09:45 gradefile.txt
+-rwxrwxr-x 1 ivan ivan 34720 Apr 10 09:45 main
+-rw-rw-r-- 1 ivan ivan  2446 Apr 10 09:44 main.cpp
+-rw-rw-r-- 1 ivan ivan   365 Apr 10 09:45 makefile
+-rw-rw-r-- 1 ivan ivan  1269 Apr 10 09:44 README.md
+drwxrwxr-x 2 ivan ivan  4096 Apr 10 09:44 test-files
+-rw-rw-r-- 1 ivan ivan  2136 Apr 10 09:45 test_normal_log.txt
+-rwxrwxr-x 1 ivan ivan  4159 Apr 10 09:45 tests.sh
+
+Hello from the parent process!
+The child process ID is $ID 1434791
+The child process exited normally

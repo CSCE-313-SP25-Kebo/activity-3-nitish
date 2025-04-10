@@ -1,0 +1,104 @@
+{
+    "tests": [
+      {
+        "name": "Testing :: Compilation",
+        "setup": "",
+        "run": "grep \"Test #1 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 10
+      },
+      {
+        "name": "Testing :: Correct ls -l when exiting normally - ./main -n 0",
+        "setup": "",
+        "run": "grep \"Test #2 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 9
+      },
+      {
+        "name": "Testing :: Correct parent PID when exiting normally - ./main -n 0",
+        "setup": "",
+        "run": "grep \"Test #4 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 4
+      },
+      {
+        "name": "Testing :: Correct child PID when exiting normally - ./main -n 0",
+        "setup": "",
+        "run": "grep \"Test #5 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 4
+      },
+      {
+        "name": "Testing :: Correct wait or waitpid calls",
+        "setup": "",
+        "run": "grep \"Test #6 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 9
+      },
+      {
+        "name": "Testing :: Correct parent PID when exiting with kill - ./main -n 1",
+        "setup": "",
+        "run": "grep \"Test #8 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 4
+      },
+      {
+        "name": "Testing :: Correct child PID when exiting with kill - ./main -n 1",
+        "setup": "",
+        "run": "grep \"Test #9 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 4
+      },
+      {
+        "name": "Testing :: Correct sleep call",
+        "setup": "",
+        "run": "grep \"Test #10 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 2
+      },
+      {
+        "name": "Testing :: Correct WIFSIGNALED call",
+        "setup": "",
+        "run": "grep \"Test #11 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 2
+      },
+      {
+        "name": "Testing ::  Correct WIFEXITED call",
+        "setup": "",
+        "run": "grep \"Test #12 Passed\" .gradefile",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 2
+      }
+    ]
+}
